@@ -1,0 +1,81 @@
+Agent
+Axolotl
+Bat
+Bee
+Blaze
+Cat
+Cave Spider
+Chicken
+Chicken Jockey
+Cod
+Cow
+Creeper
+Dolphin
+Donkey
+Drowned
+Elder Guardian
+Ender Dragon
+Enderman
+Endermite
+Evoker
+Fox
+Ghast
+Giant
+Glow Squid
+Goat
+Guardian
+Horse
+Hoglin
+Husk
+Illusioner
+Iron Golem
+Killer Bunny
+Llama
+Magma Cube
+Mooshroom
+Mule
+NPC
+Ocelot
+Old Villager
+Old Zombie Villager
+Panda
+Parrot
+Phantom
+Pig
+Piglin
+Piglin Brute
+Pillager
+Polar Bear
+Pufferfish
+Rabbit
+Ravager
+Salmon
+Sheep
+Shulker
+Silverfish
+Skeleton
+Skeleton Horse
+Skeleton Horseman
+Slime
+Snow Golem
+Spider
+Spider Jockey
+Squid
+Stray
+Strider
+Trader Llama
+Tropical Fish
+Turtle
+Vex
+Villager
+Vindicator
+Wandering Trader
+Witch
+Wither
+Wither Skeleton
+Wolf
+Zoglin
+Zombie
+Zombie Horse
+Zombie Villager
+Zombified Piglin
