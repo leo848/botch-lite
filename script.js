@@ -56,8 +56,8 @@ function next (char, obj){
 function btnPress (){
 	let object = initObject($('#input-learn').val());
 	console.log(new Date(), 'object:', object);
-	let char = '';
-	let chars = '\n';
+	let char = '\n';
+	let chars = '';
 	for (let i = 0; (i < 1000 && char != '\n') || !chars.trim(); i++) {
 		char = next(char, object);
 		chars += char;
