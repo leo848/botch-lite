@@ -3,7 +3,7 @@ import random
 from gtts import gTTS
 import os
 
-with open("parties.txt", encoding="utf-8") as f:
+with open("elents.txt", encoding="utf-8") as f:
 	fread = f.read()
 
 dictionary = {"": {}}
@@ -49,7 +49,7 @@ for i in range(10000):
 cchars = list(sorted(set("".join(cchars).split("\n"))))
 
 gTTS(text=random.choice(cchars), lang="de", slow=True).save("welcome.mp3")
-os.system("mpg321 welcome.mp3")
+#os.system("mpg321 welcome.mp3")
 
 
 with open("saves.txt", "w", encoding="utf-8") as f:

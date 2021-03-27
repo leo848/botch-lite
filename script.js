@@ -1,3 +1,5 @@
+let tts = false;
+
 function initObject (fread){
 	let obj = { '': {} };
 
@@ -54,7 +56,7 @@ function next (char, obj){
 }
 
 function btnPress (){
-	let object = initObject($('#input-learn').val());
+	let object = initObject('\n' + $('#input-learn').val() + '\n');
 	console.log(new Date(), 'object:', object);
 	let char = '\n';
 	let chars = '';
@@ -64,10 +66,12 @@ function btnPress (){
 	}
 	console.log(chars);
 	$('#word').html(chars);
-	var msg = new SpeechSynthesisUtterance();
-	msg.lang = 'de';
-	msg.text = chars;
-	window.speechSynthesis.speak(msg);
+	if (tts) {
+		var msg = new SpeechSynthesisUtterance();
+		msg.lang = 'de';
+		msg.text = chars;
+		window.speechSynthesis.speak(msg);
+	}
 }
 // with open("saves.txt", "w", encoding="utf-8") as f:
 // 	for cchar in sorted(sorted(set("".join(cchars).split("\n"))), key=lambda x: len(x)):
